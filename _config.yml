@@ -70,7 +70,7 @@ disqus:
 analytics:
   enabled: true                                       # Set true to enable analytics
   google:
-    tracking_id: G-BLK2M8V9Q2
+    tracking_id: G-BLK2M8V9Q
 
 
 ### Defaults for collections ###
