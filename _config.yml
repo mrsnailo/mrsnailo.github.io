@@ -27,10 +27,10 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Shahid Parvez
   image             : https://i.ibb.co/CP6R7WY/Artboard-1.png
-  behance           : your_username
+# behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
-  facebook          : your_username
+  facebook          : mrsnailo
   github            : mrsnailo
 # gitlab            : your_username
 # instagram         : your_username
@@ -42,9 +42,9 @@ author:
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+  twitter           : mrsnailo
 # vimeo             : your_username
-# youtube           : your_channel_name
+  youtube           : mrsnailo
 # keybase           : your_username
 
 
