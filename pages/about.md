@@ -8,10 +8,11 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I am Student, Doing My honours From Chuadanga Govt college in Accounting. From my very early age i loved technology and Computer. Eventually my passion for programming was born.But I had no computer to begin with. But it didnt make any change of passion, I sticked to my motive with different means. Now I here Trying to make something diffrent :smile: .
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
+{% include about/skills.html title="Tools Expertise" source=site.data.tools-skill %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
 

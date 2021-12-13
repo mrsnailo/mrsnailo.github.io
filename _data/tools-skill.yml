@@ -1,0 +1,11 @@
+- name: Linux
+  percentage: 40
+  color: danger
+
+- name: Git
+  percentage: 60
+  color:
+
+- name: Wordpress
+  percentage: 70
+  color: secondary
