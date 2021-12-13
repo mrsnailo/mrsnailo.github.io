@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="{{ site.baseurl }}/"><h5><b>{{ site.title }}</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+
+      {%- if page.url == "/blog/" -%}
+        {%- assign active_status1 = "active" -%}
+      {%- endif -%}
+      {%- if page.url == "/blog/categories" -%}
+        {%- assign active_status2 = "active" -%}
+      {%- endif -%}
+      {%- if page.url == "/blog/tags" -%}
+        {%- assign active_status3 = "active" -%}
+      {%- endif -%}
+      {%- if page.url == "/about/" -%}
+        {%- assign active_status4 = "active" -%}
+      {%- endif -%}
+
+    <!-- Bad way Implmentaitin -->
+
+      
+        <a class="nav-item nav-link {{ active_status1 }}" href="/blog">All</a>
+        <a class="nav-item nav-link {{ active_status2 }}" href="/blog/categories">Categories</a>
+        <a class="nav-item nav-link {{ active_status3 }}" href="/blog/tags">Tags</a>
+        <a class="nav-item nav-link {{ active_status4 }}" href="/about/">About</a>
+  
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
