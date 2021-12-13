@@ -12,6 +12,7 @@ open_new_tab        : true                           # Opens external URLs in ne
 
 ### Plugins ###
 plugins:
+  - jekyll-remote-theme
   - jemoji
 
 
