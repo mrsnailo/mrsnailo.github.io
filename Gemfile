@@ -15,6 +15,8 @@ source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 gem "jemoji"
+gem "kramdown"
+gem "rouge"
 gem "jekyll-remote-theme"
 gem "webrick"
 group :jekyll_plugins do

@@ -37,8 +37,8 @@ author:
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
+#  linkedin          : your_username
+#  medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
@@ -90,8 +90,15 @@ defaults:
       comments: true                                  
 
 
+### Syntax Highlighting
+markdown: kramdown
+# highlighter: rouge
+#     input: GFM
+
 ### Exclude from processing ###
 exclude:
+  - Gemfile
+  - Gemfile.lock
   - README.md
   - CONTRIBUTING.md
   - LICENSE
