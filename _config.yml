@@ -91,8 +91,8 @@ defaults:
 
 
 ### Syntax Highlighting
-markdown: kramdown
-# highlighter: rouge
+# markdown: kramdown
+#   highlighter: rouge
 #     input: GFM
 
 ### Exclude from processing ###
