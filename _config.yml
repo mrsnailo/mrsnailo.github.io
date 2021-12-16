@@ -66,15 +66,15 @@ collections:
 
 
 ### Disqus ###
-disqus:
-  shortname: mrsnailo                    # Your website Shortname on disqus
+# disqus:
+  # shortname: mrsnailo                    # Your website Shortname on disqus
 
 
 ### Analytics ###
 analytics:
   enabled: true                                       # Set true to enable analytics
   google:
-    tracking_id: G-BLK2M8V9Q
+    tracking_id: UA-215075360-1
 
 
 ### Defaults for collections ###
