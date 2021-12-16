@@ -11,17 +11,17 @@ dribbble:
   icon  : fab fa-dribbble
   color : 444444
 
-email:
+Email:
   url   : "mailto:"
   icon  : fas fa-envelope
   color : db4437
 
-facebook:
+Facebook:
   url   : https://www.facebook.com/
   icon  : fab fa-facebook
   color : 3b5998
 
-github:
+Github:
   url   : https://www.github.com/
   icon  : fab fa-github
   color : 333333
@@ -31,14 +31,11 @@ gitlab:
   icon  : fab fa-gitlab
   color : fca326
 
-instagram:
+Instagram:
   url   : https://www.instagram.com/
   icon  : fab fa-instagram
   color : 405de6
-uptimerobot:
-  url   : https://stats.uptimerobot.com/
-  icon  : fab fa-signal
-  color : ec1944
+
 kaggle:
   url   : https://www.kaggle.com/
   icon  : fab fa-kaggle
@@ -79,7 +76,7 @@ twitch:
   icon  : fab fa-twitch
   color : 6441a5
 
-twitter:
+Twitter:
   url   : https://www.twitter.com/
   icon  : fab fa-twitter
   color : 1da1f2
@@ -89,8 +86,8 @@ vimeo:
   icon  : fab fa-vimeo-v
   color : 162221
 
-youtube:
-  url   : https://www.youtube.com/channel/
+Youtube:
+  url   : https://www.youtube.com/c/
   icon  : fab fa-youtube
   color : ff0000
 
@@ -98,3 +95,8 @@ keybase:
   url   : https://www.keybase.io/
   icon  : fab fa-keybase
   color : 66ccff
+
+Status:
+  url   : https://stats.uptimerobot.com/
+  icon  : fas fa-shield-alt
+  color : ec1944
