@@ -18,6 +18,23 @@
     border-radius: 4px;
   }
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: #555;
   }
+.btn--facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btn--twitter {
+  background-color: #55acee;
+  color: #fff;
+}
+.btn--linkedin {
+  background-color: #007bb6;
+  color: #fff;
+}
+.btn--reddit {
+  background-color: #ff4500;
+  color: #fff;
+}
