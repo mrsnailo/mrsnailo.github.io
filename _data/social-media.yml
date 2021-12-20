@@ -100,3 +100,9 @@ Status:
   url   : https://stats.uptimerobot.com/
   icon  : fas fa-shield-alt
   color : ec1944
+
+
+  Reddit:
+  url   : https://www.reddit.com/user/
+  icon  : fab fa-reddit
+  color : ff4500
