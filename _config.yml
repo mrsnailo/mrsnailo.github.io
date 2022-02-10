@@ -4,7 +4,9 @@ description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
                       and never broke production.
-baseurl             : "/"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+baseurl             : "/"                    # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+image_fulls_loc: "images/fulls"
+image_thumbs_loc: "images/thumbs"
 repository          : mrsnailo/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : mrsnailo/portfolYOU@devs
 open_new_tab        : true                           # Opens external URLs in new tab (works for posts, projects and navbar only)
@@ -20,6 +22,7 @@ plugins:
 
 ### Navbar Settings ###
 nav_exclude: 
+  - pages/photography.html
   - pages/categories.html                                         # The following paths are excluded from navbar
   - pages/tags.html
   - pages/404.html
