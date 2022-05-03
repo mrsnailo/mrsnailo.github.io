@@ -1,0 +1,29 @@
+{
+  "name": "shahidparvez",
+  "version": "1.0.0",
+  "description": "Making This Blog Ready for Github pages Automation",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run hugo:build",
+    "clean": "npm run hugo:clean",
+    "serve": "npm run hugo:serve",
+    "hugo:build": "hugo -d build",
+    "hugo:serve": "hugo server",
+    "hugo:clean": "rm -rf build resources public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/mrsnailo/mrsnailo.github.io"
+  },
+  "keywords": [
+    "Hugo",
+    "npm",
+    "shahidparvez"
+  ],
+  "author": "shahid parvez",
+  "license": "ISC",
+  "devDependencies": {
+    "go": "^3.0.1",
+    "hugo-bin": "^0.86.0"
+  }
+}

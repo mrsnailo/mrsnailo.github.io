@@ -1,0 +1,11 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "github.com/adityatelange/hugo-PaperMod"
+
+
+
+
+[module]
+[[module.import]]
+path = "https://github.com/reorx/hugo-PaperModX.git"
