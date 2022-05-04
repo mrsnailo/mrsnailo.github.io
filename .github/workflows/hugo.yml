@@ -1,6 +1,5 @@
-name: gohugo.io
+name: Hugo
 on:
-  workflow_dispatch:
   push:
     branches:
     - master
