@@ -1,4 +1,4 @@
-module hugo-PaperModX
+module github.com/adityatelange/hugo-PaperMod.git
 
 go 1.18
 

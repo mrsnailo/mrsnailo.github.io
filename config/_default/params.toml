@@ -1,0 +1,44 @@
+author = "Shahid Parvez"
+defaultTheme = 'dark'
+ShowShareButtons = true 
+ShowReadingTime = true
+showToc = true
+tocOpen = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+comments = true
+
+[profileMode]
+enabled = true
+title = "Shahid Parvez"
+subtitle = "Linux-Lover"
+imageUrl = "/assets/logo/avatar.png"
+imageTitle = "Avatar"
+imageWidth = 180
+imageHeight = 180
+
+
+
+[[profileMode.buttons]]
+name = "About Me"
+url = "/about"
+# entry 2
+[[profileMode.buttons]]
+name = 'Posts'
+url = '/posts/'
+
+
+
+# Social Icon
+
+[[socialIcons]]
+name = "Github"
+url = "https://github.com/mrsnailo"
+
+
+# Suggest Changes
+[editPost]
+    URL = "https://github.com/mrsnailo/mrsnailo.github.io/content"
+    Text = "Suggest Changes" # edit text
+    appendFilePath = true # to append file path to Edit link
