@@ -8,8 +8,10 @@
     "clean": "npm run hugo:clean",
     "serve": "npm run hugo:serve",
     "hugo:build": "hugo -d build",
-    "hugo:serve": "hugo server",
-    "hugo:clean": "rm -rf build resources public"
+    "hugo:serve": "hugo server --disableFastRender",
+    "serve-mini": "hugo serve --environment production",
+    "hugo:clean": "rm -rf build resources public",
+    "start": "npm run build && npm run serve-mini"
   },
   "repository": {
     "type": "git",

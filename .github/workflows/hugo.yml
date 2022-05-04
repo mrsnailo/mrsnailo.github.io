@@ -1,0 +1,52 @@
+name: gohugo.io
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+        submodules: true
+
+    - name: prepare(hugo)
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: latest
+
+    - name: prepare(node)
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - name: init-cache(hugo)
+      uses: actions/cache@v3
+      with:
+        key: ${{ runner.os }}-hugomod-${{ hashFiles('go.sum') }}
+        path: /tmp/hugo_cache
+        restore-keys: ${{ runner.os }}-hugomod-
+
+    - name: init-cache(node)
+      uses: actions/cache@v3
+      with:
+        key: ${{ runner.os }}-npm-${{ hashFiles('package-lock.json') }}
+        path: ./node_modules
+        restore-keys: ${{ runner.os }}-npm-
+
+    - name: build(site)
+      run: npm start
+
+  deploy:
+    uses: peaceiris/actions-gh-pages@v3.7.3
+    personal_token: ${{secrets.github_token}}
+    external_epository: mrsnailo/mrsnailo.github.io
+    publish_dir: ./public
+    user_name: mrsnailo
+    user_email: shahidparvez.official@gmail.com
+    publish_branch: master

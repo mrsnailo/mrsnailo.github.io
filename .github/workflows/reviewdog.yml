@@ -1,0 +1,13 @@
+name: reviewdog
+on: [pull_request]
+job:
+  reviewdog_linter:
+    name: runner / reviewdog
+    runs-on: ubuntu_latest
+    steps:
+      - uses: actions/checkout@v2.3.4
+      - usese: reviewdog/action-languagetool@v1
+      with: 
+        github_token: ${{secret.github_token}}
+        reporter: github-pr-reviewdog
+        level: info
