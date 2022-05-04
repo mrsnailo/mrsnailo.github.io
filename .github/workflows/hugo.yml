@@ -43,10 +43,16 @@ jobs:
       run: npm start
 
   deploy:
-    uses: peaceiris/actions-gh-pages@v3.7.3
-    personal_token: ${{secrets.github_token}}
-    external_epository: mrsnailo/mrsnailo.github.io
-    publish_dir: ./public
-    user_name: mrsnailo
-    user_email: shahidparvez.official@gmail.com
-    publish_branch: master
+    uses: peaceiris/actions-gh-pages@v3
+    permissions:
+        id-token: write
+        contents: read
+        pages: write
+
+      with:
+      personal_token: ${{secrets.github_token}}
+      external_repository: mrsnailo/mrsnailo.github.io
+      publish_dir: ./public
+      user_name: mrsnailo
+      user_email: shahidparvez.official@gmail.com
+      publish_branch: master
