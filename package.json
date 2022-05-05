@@ -9,9 +9,9 @@
     "serve": "npm run hugo:serve",
     "hugo:build": "hugo -d build",
     "hugo:serve": "hugo server --disableFastRender",
-    "serve-mini": "hugo serve --environment production",
+    "hugo": "hugo --minify --environment production",
     "hugo:clean": "rm -rf build resources public",
-    "start": "npm run build && npm run serve-mini"
+    "start": "npm run build && npm run hugo"
   },
   "repository": {
     "type": "git",
