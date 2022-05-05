@@ -43,6 +43,13 @@ jobs:
       run: ./build.sh
       shell: sh
     
+    - name: push(site)
+      uses: actions/upload-artifact@main
+      with:
+        name: github-pages
+        path: ./artifact.tar
+        if-no-files-found: warn
+    
 
   deploy:
     # runs-on: ubuntu-18.04
