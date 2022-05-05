@@ -40,12 +40,13 @@ jobs:
         restore-keys: ${{ runner.os }}-npm-
 
     - name: build(site)
-      run: hugo -D
+      run: ./build.shahid
+      shell: sh
     
 
   deploy:
     runs-on: ubuntu-18.04
-    # environment: github-pages
+     environment: github-pages
     needs: build
     steps:
     - name: Deploy
