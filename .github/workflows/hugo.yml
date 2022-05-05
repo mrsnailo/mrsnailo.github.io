@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-18.04
     steps:
     - name: checkout
@@ -43,14 +43,17 @@ jobs:
       run: ./build.sh
       shell: sh
 
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        personal_token: ${{ secrets.github_token }}
-        external_repository:  mrsnailo/mrsnailo.github.io
-        publish_dir: ./public
-        #   keep_files: true for
-        # uncomment if need backup files
-        user_name: mrsnailo
-        user_email: shahidparvez.official@gmail.com
-        publish_branch: master
+deploy:
+    runs-on: ubuntu-18.04
+    environment: github-pages
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.github_token }}
+          external_repository:  mrsnailo/mrsnailo.github.io
+          publish_dir: ./public
+          #   keep_files: true for
+          # uncomment if need backup files
+          user_name: mrsnailo
+          user_email: shahidparvez.official@gmail.com
+          publish_branch: master
