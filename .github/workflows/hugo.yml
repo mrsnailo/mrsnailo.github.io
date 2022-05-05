@@ -40,12 +40,13 @@ jobs:
         restore-keys: ${{ runner.os }}-npm-
 
     - name: build(site)
-      run: ./build.sh
-      shell: sh
+      run: hugo -D
+    
 
   deploy:
     runs-on: ubuntu-18.04
     # environment: github-pages
+    needs: build
     steps:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
