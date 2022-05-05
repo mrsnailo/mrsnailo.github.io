@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/posts/hellopost/</loc>
+    <lastmod>2022-05-03T22:13:45+06:00</lastmod>
+  </url><url>
+    <loc>/tags/i18n/</loc>
+    <lastmod>2022-05-03T22:13:45+06:00</lastmod>
+  </url><url>
+    <loc>/tags/ibus/</loc>
+    <lastmod>2022-05-03T22:13:45+06:00</lastmod>
+  </url><url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2022-05-03T22:13:45+06:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-05-03T22:13:45+06:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2022-05-03T22:13:45+06:00</lastmod>
+  </url><url>
+    <loc>/tags/setup/</loc>
+    <lastmod>2022-05-03T22:13:45+06:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-05-03T22:13:45+06:00</lastmod>
+  </url><url>
+    <loc>/about/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/search/</loc>
+  </url>
+</urlset>

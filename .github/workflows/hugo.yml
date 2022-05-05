@@ -40,7 +40,8 @@ jobs:
         restore-keys: ${{ runner.os }}-npm-
 
     - name: build(site)
-      run: npm start
+      run: build.sh
+      shell: sh
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
