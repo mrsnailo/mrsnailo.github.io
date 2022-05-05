@@ -57,4 +57,4 @@ jobs:
         # uncomment if need backup files
         user_name: mrsnailo
         user_email: shahidparvez.official@gmail.com
-          publish_branch: master
+        publish_branch: master
