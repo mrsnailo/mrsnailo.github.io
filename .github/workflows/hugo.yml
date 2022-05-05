@@ -40,7 +40,7 @@ jobs:
         restore-keys: ${{ runner.os }}-npm-
 
     - name: build(site)
-      run: ./build.shahid
+      run: ./build.sh
       shell: sh
     
 
