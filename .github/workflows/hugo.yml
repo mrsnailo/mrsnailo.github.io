@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
     - name: checkout
       uses: actions/checkout@v3
@@ -45,18 +45,32 @@ jobs:
     
 
   deploy:
-    runs-on: ubuntu-18.04
-    #  environment: github-pages
+    # runs-on: ubuntu-18.04
+    # needs: build
+    # steps:
+    # - name: Deploy
+    #   uses: peaceiris/actions-gh-pages@v3
+    #   with:
+    #     personal_token: ${{ secrets.HTOKEN }}
+    #     external_repository:  mrsnailo/mrsnailo.github.io
+    #     publish_dir: ./public
+    #     #   keep_files: true for
+    #     # uncomment if need backup files
+    #     user_name: mrsnailo
+    #     user_email: shahidparvez.official@gmail.com
+    #     publish_branch: master
+    runs-on: ubuntu-latest
+    environment: github-pages
     needs: build
+    permissions:
+      id-token: write
+      contents: read
+      pages: write
     steps:
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+    - name: deploy(site)
+      uses: actions/deploy-pages@master
       with:
-        personal_token: ${{ secrets.HTOKEN }}
-        external_repository:  mrsnailo/mrsnailo.github.io
-        publish_dir: ./public
-        #   keep_files: true for
-        # uncomment if need backup files
-        user_name: mrsnailo
-        user_email: shahidparvez.official@gmail.com
-        publish_branch: master
+        token: ${{ secrets.GITHUB_TOKEN }}
+        timeout: 600000
+        error_count: 10
+        reporting_interval: 1000
