@@ -46,7 +46,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-18.04
-     environment: github-pages
+    #  environment: github-pages
     needs: build
     steps:
     - name: Deploy
