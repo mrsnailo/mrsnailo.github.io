@@ -1,7 +1,8 @@
 ---
-title: About Me
+title: আমি?
 layout: page
 url: /about
+searchHidden: true
 ---
 
 <h1 align="center">Hi 👋, I'm Shahid Parvez</h1>

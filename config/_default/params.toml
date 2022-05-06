@@ -1,5 +1,6 @@
 author = "Shahid Parvez"
-defaultTheme = 'dark'
+defaultTheme = 'light'
+
 ShowShareButtons = true 
 ShowReadingTime = true
 showToc = true
@@ -9,9 +10,20 @@ ShowPostNavLinks = true
 ShowCodeCopyButtons = true
 comments = true
 
+[label]
+text = "‍@shahidparvez"
+icon = "/assets/icon/favicon/32x32.png"
+iconHeight = 32
+
+# favicons
+[assets]
+    favicon = "/assets/icon/favicon/32x32.png"
+    favicon16x16 =  "/assets/icon/favicon/32x32.png"
+
+
 [profileMode]
 enabled = true
-title = "Shahid Parvez"
+title = "শাহিদ পারভেজ"
 subtitle = "Linux-Lover"
 imageUrl = "/assets/logo/avatar.png"
 imageTitle = "Avatar"

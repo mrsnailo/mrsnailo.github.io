@@ -1,0 +1,18 @@
+[profileMode]
+enabled = true
+title = "শাহিদ পারভেজ"
+subtitle = "Linux-Lover"
+imageUrl = "/assets/logo/avatar.png"
+imageTitle = "Avatar"
+imageWidth = 180
+imageHeight = 180
+
+
+
+[[profileMode.buttons]]
+name = "About Me"
+url = "/about"
+# entry 2
+[[profileMode.buttons]]
+name = 'Posts'
+url = '/posts/'

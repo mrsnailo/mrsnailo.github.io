@@ -1,0 +1,16 @@
+[profileMode]
+enabled = true
+title = "SHahid Parvez"
+subtitle = "Linux-Lover"
+imageUrl = "/assets/logo/avatar.png"
+imageTitle = "Avatar"
+imageWidth = 180
+imageHeight = 180
+
+[[profileMode.buttons]]
+name = "About Me"
+url = "/en/about"
+# entry 2
+[[profileMode.buttons]]
+name = 'Posts'
+url = '/en/posts/'

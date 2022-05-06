@@ -1,10 +1,28 @@
-baseURL = "https://mrsnailo.github.io/website"
+baseURL = "https://mrsnailo.github.io/website/"
+# https://mrsnailo.github.io/website
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Shahid Parvez'
 theme = "github.com/adityatelange/hugo-PaperMod"
+defaultContentLanguage = 'bn'
 
 
+[languages.bn]
+contentDir = "content/bn"
+weight = 1
+LanguageName = ':bangladesh:'
 
+[languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 2
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  series = 'series'
+
+[outputs]
+    home = ["HTML", "RSS", "JSON" ] 
 
 [module]
 [[module.import]]
