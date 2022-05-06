@@ -1,9 +1,9 @@
-
-name: Hugo
+name: gohugo.io
 on:
+  workflow_dispatch:
   push:
     branches:
-      - master
+    - master
 
 jobs:
   build:
@@ -42,8 +42,7 @@ jobs:
     - name: build(site)
       run: ./build.sh
       shell: sh
-    
-    - name: compress (As artifact)
+    - name: archive(site)
       run: exec tar --dereference --hard-dereference --directory public -cvf artifact.tar .
       shell: sh
 
@@ -53,7 +52,6 @@ jobs:
         name: github-pages
         path: ./artifact.tar
         if-no-files-found: warn
-    
 
   deploy:
     runs-on: ubuntu-latest
@@ -67,10 +65,7 @@ jobs:
     - name: deploy(site)
       uses: actions/deploy-pages@master
       with:
-        token:
-          description: 'GitHub token'
-          default: ${{ github.token }}
-          required: true
+        token: ${{ secrets.GITHUB_TOKEN }}
         timeout: 600000
         error_count: 10
         reporting_interval: 1000
