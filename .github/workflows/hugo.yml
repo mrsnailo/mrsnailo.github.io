@@ -56,20 +56,6 @@ jobs:
     
 
   deploy:
-    # runs-on: ubuntu-18.04
-    # needs: build
-    # steps:
-    # - name: Deploy
-    #   uses: peaceiris/actions-gh-pages@v3
-    #   with:
-    #     personal_token: ${{ secrets.HTOKEN }}
-    #     external_repository:  mrsnailo/mrsnailo.github.io
-    #     publish_dir: ./public
-    #     #   keep_files: true for
-    #     # uncomment if need backup files
-    #     user_name: mrsnailo
-    #     user_email: shahidparvez.official@gmail.com
-    #     publish_branch: master
     runs-on: ubuntu-latest
     environment: github-pages
     needs: build
@@ -81,7 +67,10 @@ jobs:
     - name: deploy(site)
       uses: actions/deploy-pages@master
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token:
+          description: 'GitHub token'
+          default: ${{ github.token }}
+          required: true
         timeout: 600000
         error_count: 10
         reporting_interval: 1000
