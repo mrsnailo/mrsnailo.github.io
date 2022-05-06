@@ -1,4 +1,4 @@
-name: gohugo.io
+name: hugo
 on:
   workflow_dispatch:
   push:
