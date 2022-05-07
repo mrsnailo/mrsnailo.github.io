@@ -1,7 +1,7 @@
 ---
 title: About Me
 layout: page
-url: /about
+url: /en/about
 searchHidden: true
 ---
 
@@ -13,32 +13,45 @@ searchHidden: true
 
 - 🌱 I’m currently learning **LAMP Stack**
 
-- 👨‍💻 All of my projects are available at [http://mrsnailo.github.io/projects](http://mrsnailo.github.io/projects)
-
-- 📝 I regularly write articles on [http://mrsnailo.github.io/blog](http://mrsnailo.github.io/blog)
+- 📝 I regularly write articles  [here](http://mrsnailo.github.io/posts)
 
 - 📫 How to reach me **shahidparvez.official@gmail.com**
 
-- 📄 Know about my experiences [http://mrsnailo.github.io/resume](http://mrsnailo.github.io/resume)
+- 📄 Know about my experiences [(Resume)](http://mrsnailo.github.io/resume)
 
 - ⚡ Fun fact **I use Tabs Over Spaces**
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/mrsnailo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mrsnailo" height="30" width="40" /></a>
-<a href="https://fb.com/mrsnailo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="mrsnailo" height="30" width="40" /></a>
-<a href="https://instagram.com/mrsnailo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="mrsnailo" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/mrsnailo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="mrsnailo" height="30" width="40" /></a>
-</p>
 
-<h3 align="center" style="margin: 10px 0 10px 0">Languages and Tools:</h3>
-<div  style="border: 2px solid beige;padding: 10px 0 3px 0;">
-  <p align="center"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.framer.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="framer" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://jekyllrb.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jekyllrb/jekyllrb-icon.svg" alt="jekyll" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://www.sketch.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sketchapp/sketchapp-icon.svg" alt="sketch" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p> 
- </div>
+{{<raw>}}
 
-<div>
-  <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=mrsnailo&show_icons=true&locale=en&layout=compact" alt="mrsnailo" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mrsnailo&show_icons=true&locale=en" alt="mrsnailo" /></p>
-</div>
-
+<style>
+  details{
+    text-align: center;
+  }
+</style>
+  <details open class="drawer">
+    <summary><b>My Skill Set</b></summary>
+    <div style="display: inline-grid !important;grid-template-columns: auto auto auto auto auto;">
+      <img style="margin: 10px; width: 48px;" src="https://profilinator.rishav.dev/skills-assets/c-original.svg" alt="C" height="50" />
+      <img style="margin: 10px; width: 48px;" src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="C++" height="50" />
+      <img style="margin: 10px; width: 48px;" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />
+      <img style="margin: 10px; width: 48px;" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />
+      <img style="margin: 10px; width: 48px;" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />
+      <img style="margin: 10px; width: 48px;" src="https://profilinator.rishav.dev/skills-assets/sass-original.svg" alt="Sass" height="50" />
+      <img style="margin: 10px; width: 48px;" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="Php" height="50" />
+      <img style="margin: 10px; width: 48px;" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" />
+      <img style="margin: 10px; width: 48px;" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" />
+      <img style="margin: 10px; width: 48px;filter: invert(50%);" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" />
+    </div>
+  </details>
+  <!-- Git Stats -->
+  <details open class="drawer">
+    <summary><b>Github Statistics</b></summary>
+    <figure style="margin-top: var(--radius);">
+      <embed type="image/svg+xml" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrsnailo&layout=compact&amp;theme=github_dark&amp;text_color=C6CDCB" width="100%"/>
+      <embed type="image/svg+xml" src="https://github-readme-stats.vercel.app/api?theme=dark&amp;title_color=2EB398&amp;bg_color=1B2224&amp;text_color=C6CDCB&amp;username=mrsnailo&amp;count_private=true&amp;show_icons=true" width="100%"/>
+      <embed type="image/svg+xml" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mrsnailo&amp;theme=github_dark" width="100%"/>
+      <embed type="image/svg+xml" src="https://github-readme-streak-stats.herokuapp.com?user=mrsnailo&amp;theme=dark&amp;hide_border=true&amp;background=1B2224&amp;stroke=718F97&amp;ring=2EB398&amp;fire=2EB398&amp;currStreakNum=C6CDCB&amp;sideNums=C6CDCB&amp;currStreakLabel=2EB398&amp;sideLabels=C6CDCB" width="100%"/>
+    </figure>
+  </details>
+{{</raw>}}

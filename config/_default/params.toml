@@ -12,20 +12,27 @@ comments = true
 
 [label]
 text = "‍@shahidparvez"
-icon = "/assets/icon/favicon/32x32.png"
+icon = "/assets/icons/favicon/48x48.png"
 iconHeight = 32
 
-# favicons
-[assets]
-    favicon = "/assets/icon/favicon/32x32.png"
-    favicon16x16 =  "/assets/icon/favicon/32x32.png"
 
+
+[assets]
+disableFingerprinting = true
+
+favicon16x16 = "/assets/icons/favicon/16x16.png"
+favicon32x32 = "/assets/icons/favicon/32x32.png"
+apple_touch_icon = '/assets/icons/apple/base.png'
+safari_pinned_tab = "/assets/icons/apple/tab.svg"
+favicon = "/assets/icons/favicon/32x32.png"
+msTileColor = "#1d1e20"
+vtag = '8jl4JnrGke'
 
 [profileMode]
 enabled = true
 title = "শাহিদ পারভেজ"
 subtitle = "Linux-Lover"
-imageUrl = "/assets/logo/avatar.png"
+imageUrl = "assets/logo/avatar.png"
 imageTitle = "Avatar"
 imageWidth = 180
 imageHeight = 180
@@ -34,11 +41,11 @@ imageHeight = 180
 
 [[profileMode.buttons]]
 name = "About Me"
-url = "/about"
+url = "about/"
 # entry 2
 [[profileMode.buttons]]
 name = 'Posts'
-url = '/posts/'
+url = 'posts/'
 
 
 
@@ -47,6 +54,26 @@ url = '/posts/'
 [[socialIcons]]
 name = "Github"
 url = "https://github.com/mrsnailo"
+
+[[socialIcons]]
+name = "Twitter"
+url = "https://twitter.com/mrsnailo"
+
+[[socialIcons]]
+name = "Reddit"
+url = "https://reddit.com/mrsnailo"
+
+[[socialIcons]]
+name = "Instagram"
+url = "https://Instagram.com/mrsnailo"
+
+[[socialIcons]]
+name = "Telegram"
+url = "https://t.me/prismoidparvez"
+
+[[socialIcons]]
+name = "Discord"
+url = "https://discord.com/users/573172734767661056"
 
 
 # Suggest Changes
