@@ -9,6 +9,7 @@ ShowBreadCrumbs = true
 ShowPostNavLinks = true
 ShowCodeCopyButtons = true
 comments = true
+images = ['/assets/cover/cover.png']
 
 [label]
 text = "‍@shahidparvez"
@@ -28,7 +29,10 @@ imageTitle = "Avatar"
 imageWidth = 180
 imageHeight = 180
 
-
+[cover]
+image = ['/assets/cover/cover.png']
+alt = "Cover"
+captions = "Reading Makes You Feel Good"
 
 [[profileMode.buttons]]
 name = "About Me"
