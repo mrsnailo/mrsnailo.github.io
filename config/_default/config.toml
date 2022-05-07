@@ -1,9 +1,11 @@
 baseURL = "https://mrsnailo.github.io/"
-# https://mrsnailo.github.io/website
+# https://mrsnailo.github.io/
 languageCode = 'en-us'
 title = 'Shahid Parvez'
 theme = "github.com/adityatelange/hugo-PaperMod"
 defaultContentLanguage = 'bn'
+enableEmoji = true
+
 
 
 [languages.bn]

@@ -16,17 +16,8 @@ icon = "/assets/icons/favicon/48x48.png"
 iconHeight = 32
 
 
-
 [assets]
-disableFingerprinting = true
-
-favicon16x16 = "/assets/icons/favicon/16x16.png"
-favicon32x32 = "/assets/icons/favicon/32x32.png"
-apple_touch_icon = '/assets/icons/apple/base.png'
-safari_pinned_tab = "/assets/icons/apple/tab.svg"
-favicon = "/assets/icons/favicon/32x32.png"
-msTileColor = "#1d1e20"
-vtag = '8jl4JnrGke'
+favicon = "/assets/icons/favicon/48x48.png"
 
 [profileMode]
 enabled = true

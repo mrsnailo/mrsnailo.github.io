@@ -4,11 +4,12 @@
   "description": "Making This Blog Ready for Github pages Automation",
   "main": "index.js",
   "scripts": {
+    "badge": "node helper/badges.js",
     "build": "npm run hugo:build",
     "clean": "npm run hugo:clean",
-    "serve": "npm run hugo:serve",
+    "serve": "hugo serve --environment production",
     "hugo:build": "hugo -d build",
-    "hugo:serve": "hugo server --disableFastRender",
+    "hugo:serve": "npm run badge && npm run serve",
     "hugo": "hugo --minify --environment production",
     "hugo:clean": "rm -rf build resources public",
     "start": "npm run build && npm run hugo"
@@ -27,6 +28,8 @@
   "devDependencies": {
     "badge-maker": "^3.3.1",
     "go": "^3.0.1",
-    "hugo-bin": "^0.86.0"
+    "hugo-bin": "^0.86.0",
+    "simple-icons": "^6.20.0",
+    "svgo": "^2.8.0"
   }
 }
