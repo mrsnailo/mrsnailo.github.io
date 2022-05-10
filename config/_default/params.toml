@@ -73,6 +73,6 @@ url = "https://discord.com/users/573172734767661056"
 
 # Suggest Changes
 [editPost]
-    URL = "https://github.com/mrsnailo/mrsnailo.github.io/content"
+    URL = "https://github.com/mrsnailo/mrsnailo.github.io/content/en"
     Text = "Suggest Changes" # edit text
     appendFilePath = true # to append file path to Edit link

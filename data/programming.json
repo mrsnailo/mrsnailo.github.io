@@ -1,0 +1,22 @@
+[
+    {
+        "name": "HTML5/CSS3",
+        "percentage": 90,
+        "color": "danger"
+    },
+    {
+        "name": "scss",
+        "percentage": 50,
+        "color": null
+    },
+    {
+        "name": "java",
+        "percentage": 70,
+        "color": "secondary"
+    },
+    {
+        "name": "c",
+        "percentage": 30,
+        "color": "success"
+    }
+]

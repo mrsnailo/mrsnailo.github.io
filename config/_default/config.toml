@@ -6,7 +6,7 @@ theme = "github.com/adityatelange/hugo-PaperMod"
 defaultContentLanguage = 'bn'
 enableEmoji = true
 
-
+custom_css = ["/css/timeline.css"]
 
 [languages.bn]
 contentDir = "content/bn"
