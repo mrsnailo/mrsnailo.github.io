@@ -1,1 +1,0 @@
-/**@deprecated use "const { siSnapcraft } = require('simple-icons/icons');" instead*/declare const i:import("../alias").I;export default i;

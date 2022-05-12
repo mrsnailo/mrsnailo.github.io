@@ -1,1 +1,0 @@
-/**@deprecated use "const { siMatrix } = require('simple-icons/icons');" instead*/declare const i:import("../alias").I;export default i;

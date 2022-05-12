@@ -1,0 +1,11 @@
+# whitelist
+!/config/**
+!/layouts/**
+!/static/**
+!/content/**
+# blacklist
+/public
+/node_modules
+/.hugo_build.lock
+/data/badge.json
+/static/assets/badges

@@ -1,1 +1,0 @@
-/**@deprecated use "const { siVim } = require('simple-icons/icons');" instead*/declare const i:import("../alias").I;export default i;

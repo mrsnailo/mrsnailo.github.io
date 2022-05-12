@@ -1,1 +1,0 @@
-/**@deprecated use "const { siHtml5 } = require('simple-icons/icons');" instead*/declare const i:import("../alias").I;export default i;

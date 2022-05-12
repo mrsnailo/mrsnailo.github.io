@@ -1,1 +1,0 @@
-/**@deprecated use "const { siCncf } = require('simple-icons/icons');" instead*/declare const i:import("../alias").I;export default i;
