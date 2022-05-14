@@ -1,19 +1,19 @@
 [[main]]
 name = "Posts"
-url = "posts/"
+url = "/posts/"
 weight = 1
 
 [[main]]
 name = "Tags"
-url = "tags/"
+url = "/tags/"
 weight = 2
 
 [[main]]
 name= "Categories"
-url = "categories/"
+url = "/categories/"
 weight = 3
 
 [[main]]
 name = "Search"
-url = "search/"
+url = "/search/"
 weight = 4
