@@ -14,3 +14,8 @@ url = "/en/about"
 [[profileMode.buttons]]
 name = 'Posts'
 url = '/en/posts/'
+
+[editPost]
+    URL = "https://github.com/mrsnailo/mrsnailo.github.io/tree/master/content/bn"
+    Text = "Suggest Changes" # edit text
+    appendFilePath = true # to append file path to Edit link
