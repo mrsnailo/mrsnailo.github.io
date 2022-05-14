@@ -1,29 +1,25 @@
 ---
-title: About Me
+title: About me
 layout: about
 url: /en/about
+showToc: false
 searchHidden: true
 ---
 
 
-<h1 align="center">Hi 👋, I'm Shahid Parvez</h1>
-<h3 align="center">A passionate developer from 🇧🇩</h3>
+## :wave: Hi there  - I'm Shahid Parvez
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=mrsnailo&label=Profile%20views&color=0e75b6&style=flat" alt="mrsnailo" /> </p>
+[![Website](https://img.shields.io/website?color=F5A65B&down_color=tomato&down_message=Down&label=mrsnailo.github.io&style=for-the-badge&up_color=6CAE75&up_message=up&url=https%3A%2F%2Fmrsnailo.github.io)](https://mrsnailo.github.io)
+[![Twitter Follow](https://img.shields.io/twitter/follow/mrsnailo?color=00ACEE&logo=twitter&style=for-the-badge)](https://twitter.com/mrsnailo)
+
+## I am a student
 
 
-- 🌱 I’m currently learning **LAMP Stack**
+- Learning **LAMP Stack**
 
-- 👨‍💻 All of my projects are available at [http://mrsnailo.github.io/projects](http://mrsnailo.github.io/projects)
+- Random **otaku** and **linux Lover**
 
-- 📝 I regularly write articles on [http://mrsnailo.github.io/blog](http://mrsnailo.github.io/blog)
-
-- 📫 How to reach me **shahidparvez.official@gmail.com**
-
-- 📄 Know about my experiences [http://mrsnailo.github.io/resume](http://mrsnailo.github.io/resume)
-
-- ⚡ Fun fact **I use Tabs Over Spaces**
-
+- Fun fact **I use Tabs Over Spaces**
 
 
 
@@ -34,12 +30,12 @@ searchHidden: true
     box-shadow: none;
   }
 </style>
-  <div id="contacts">
+   <div id="contacts">
   <h2>Connext With Me:</h2>
-  {{% badge "github" "https://github.com/ahmubashshir" %}}
-  {{% badge "gitlab" "https://gitlab.com/ahmubashshir" %}}
-  {{% badge "stackoverflow" "https://stackoverflow.com/users/9123082" %}}
-  {{% badge "pgp" "https://keys.openpgp.org/vks/v1/by-fingerprint/916961EE198832DD70B628B356DB0538F60D951C" %}}
+  {{% badge "github" "https://github.com/mrsnailo" %}}
+  {{% badge "telegram" "https://t.me/prismoidparvez" %}}
+  {{% badge "facebook" "https://www.faceboook.co/mrsnailo" %}}
+  {{% badge "reddit" "https://reddit.com/c/mrsnailo" %}}
   
   </div>
 

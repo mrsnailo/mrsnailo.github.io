@@ -2,7 +2,6 @@
 
 <article class="post-single">
   <header class="post-header">
-    {{ partial "breadcrumbs.html" . }}
     <h1 class="post-title">
       {{ .Title }}
     </h1>
@@ -39,89 +38,94 @@
   </div>
  </div>
   <div class="row">
-    <div class="col-md-6">
+    <details>
+      <summary>View with bars</summary>
+        <div class="row">
+          <div class="col-md-6">
 
-      <h2 class="mb-3">Programming Skill</h2>
+            <h3 class="mb-3">Programming Skill</h3>
+            
       
-
-      {{range .Site.Data.programming}}
-        <div class="row justify-content-between align-items-center">
-          <div class="col-10">
-            <p class="mb-1">{{.name}}</p>
+            {{range .Site.Data.programming}}
+              <div class="row justify-content-between align-items-center">
+                <div class="col-10">
+                  <p class="mb-1">{{.name}}</p>
+                </div>
+                <div class="col-2" style="text-align: right;;">
+                  <p class="mb-1 text-muted"> {{.percentage}} </p>
+                </div>
+              </div>
+            
+              <div class="progress mb-4 bg-themed" style="height: 8px;">
+                <div class="progress-bar bg-{{.color}} animate_wow animate__animated animate__slideInLeft"
+                  data-wow-delay="0.05"
+                  role="progressbar"
+                  style="width: {{.percentage}}%;"
+                  aria-valuenow="{{.percentage}}"
+                  aria-valuemin="0"
+                  aria-valuemax="100">
+                </div>
+              </div>
+            {{end}}
           </div>
-          <div class="col-2" style="text-align: right;;">
-            <p class="mb-1 text-muted"> {{.percentage}} </p>
+          <!-- other -->
+          <div class="col-md-6">
+      
+            <h3 class="mb-3">Other Skill</h3>
+            
+            
+            {{range .Site.Data.other}}
+              <div class="row justify-content-between align-items-center">
+                <div class="col-10">
+                  <p class="mb-1">{{.name}}</p>
+                </div>
+                <div class="col-2" style="text-align: right;;">
+                  <p class="mb-1 text-muted"> {{.percentage}} </p>
+                </div>
+              </div>
+            
+              <div class="progress mb-4 bg-themed" style="height: 8px;">
+                <div class="progress-bar bg-{{.color}} animate_wow animate__animated animate__slideInLeft"
+                  data-wow-delay="0.05"
+                  role="progressbar"
+                  style="width: {{.percentage}}%;"
+                  aria-valuenow="{{.percentage}}"
+                  aria-valuemin="0"
+                  aria-valuemax="100">
+                </div>
+              </div>
+            {{end}}
+          </div>
+          <!-- tools -->
+          <div class="col-md-6">
+      
+            <h3 class="mb-3">Tools</h3>
+            
+            
+            {{range .Site.Data.tools}}
+              <div class="row justify-content-between align-items-center">
+                <div class="col-10">
+                  <p class="mb-1">{{.name}}</p>
+                </div>
+                <div class="col-2" style="text-align: right;;">
+                  <p class="mb-1 text-muted"> {{.percentage}} </p>
+                </div>
+              </div>
+            
+              <div class="progress mb-4 bg-themed" style="height: 8px;">
+                <div class="progress-bar bg-{{.color}} animate_wow animate__animated animate__slideInLeft"
+                  data-wow-delay="0.05"
+                  role="progressbar"
+                  style="width: {{.percentage}}%;"
+                  aria-valuenow="{{.percentage}}"
+                  aria-valuemin="0"
+                  aria-valuemax="100">
+                </div>
+              </div>
+            {{end}}
           </div>
         </div>
-      
-        <div class="progress mb-4 bg-themed" style="height: 8px;">
-          <div class="progress-bar bg-{{.color}} animate_wow animate__animated animate__slideInLeft"
-            data-wow-delay="0.05"
-            role="progressbar"
-            style="width: {{.percentage}}%;"
-            aria-valuenow="{{.percentage}}"
-            aria-valuemin="0"
-            aria-valuemax="100">
-          </div>
-        </div>
-      {{end}}
-    </div>
-    <!-- other -->
-    <div class="col-md-6">
-
-      <h2 class="mb-3">Other Skill</h2>
-      
-      
-      {{range .Site.Data.other}}
-        <div class="row justify-content-between align-items-center">
-          <div class="col-10">
-            <p class="mb-1">{{.name}}</p>
-          </div>
-          <div class="col-2" style="text-align: right;;">
-            <p class="mb-1 text-muted"> {{.percentage}} </p>
-          </div>
-        </div>
-      
-        <div class="progress mb-4 bg-themed" style="height: 8px;">
-          <div class="progress-bar bg-{{.color}} animate_wow animate__animated animate__slideInLeft"
-            data-wow-delay="0.05"
-            role="progressbar"
-            style="width: {{.percentage}}%;"
-            aria-valuenow="{{.percentage}}"
-            aria-valuemin="0"
-            aria-valuemax="100">
-          </div>
-        </div>
-      {{end}}
-    </div>
-    <!-- tools -->
-    <div class="col-md-6">
-
-      <h2 class="mb-3">Tools</h2>
-      
-      
-      {{range .Site.Data.tools}}
-        <div class="row justify-content-between align-items-center">
-          <div class="col-10">
-            <p class="mb-1">{{.name}}</p>
-          </div>
-          <div class="col-2" style="text-align: right;;">
-            <p class="mb-1 text-muted"> {{.percentage}} </p>
-          </div>
-        </div>
-      
-        <div class="progress mb-4 bg-themed" style="height: 8px;">
-          <div class="progress-bar bg-{{.color}} animate_wow animate__animated animate__slideInLeft"
-            data-wow-delay="0.05"
-            role="progressbar"
-            style="width: {{.percentage}}%;"
-            aria-valuenow="{{.percentage}}"
-            aria-valuemin="0"
-            aria-valuemax="100">
-          </div>
-        </div>
-      {{end}}
-    </div>
+    </details>
   </div>   
 
 
