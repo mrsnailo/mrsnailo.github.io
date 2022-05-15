@@ -10,11 +10,11 @@ imageHeight = 180
 
 
 [[profileMode.buttons]]
-name = "About Me"
+name = "আমাকে জানুন"
 url = "/about"
 # entry 2
 [[profileMode.buttons]]
-name = 'Posts'
+name = 'পোস্ট`স'
 url = '/posts/'
 
 [editPost]

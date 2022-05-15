@@ -1,5 +1,5 @@
 baseURL = "https://mrsnailo.github.io"
-# https://mrsnailo.github.io/
+# https://mrsnailo.github.io
 languageCode = 'en-us'
 title = 'Shahid Parvez'
 theme = "github.com/adityatelange/hugo-PaperMod"
@@ -25,6 +25,11 @@ LanguageName = ':bangladesh:'
 
 [outputs]
     home = ["HTML", "RSS", "JSON" ] 
+
+
+#set permalinks for posts 
+[permalinks]
+  posts = '/:year/:month/:day/:title/'
 
 [module]
 [[module.import]]
