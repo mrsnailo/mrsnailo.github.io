@@ -94,27 +94,61 @@
                 </button>
                 {{- end }}
 
-                {{- $lang := .Lang}}
-                {{- $separator := or $label_text (not site.Params.disableThemeToggle)}}
-                {{- with site.Home.AllTranslations }}
                 <ul class="lang-switch">
+                    {{- $separator := or $label_text (not site.Params.disableThemeToggle)}}
                     {{- if $separator }}<li>|</li>{{ end }}
-                    {{- range . -}}
-                    {{- if ne $lang .Lang }}
-                    <li>
-                        <a href="{{- .Permalink -}}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
-                            aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
+                    {{ if .IsTranslated }}
+                      {{ range .Translations }}
+                          <li><a href="{{ .Permalink }}" lang="{{ .Lang }}">
                             {{- if (and site.Params.displayFullLangName (.Language.LanguageName)) }}
                             {{- .Language.LanguageName | emojify -}}
                             {{- else }}
                             {{- .Lang | title -}}
+
                             {{- end -}}
-                        </a>
-                    </li>
-                    {{- end -}}
-                    {{- end}}
+                          </a></li>
+                      {{ end }}
+                    {{ else }}
+                      {{- if (eq site.Language.Lang "bn")}}
+                        {{ range .Site.Languages }}
+                              {{ if not (eq .Lang site.Language.Lang) }}
+                              <li><a href="/en/posts" lang="{{ .Lang }}" class="no-translation">
+                                  {{- if (and site.Params.displayFullLangName (.Language.LanguageName)) }}
+                                  {{- .Language.LanguageName | emojify -}}
+                                  {{- else }}
+                                  {{- .Lang | title -}}
+                                  {{- end -}}
+                              </a></li> 
+                              {{ end }}
+                        {{ end }}
+                       {{- else if (eq site.Language.Lang "en")}}
+                           {{ range .Site.Languages }}
+                                 {{ if not (eq .Lang site.Language.Lang) }}
+                                 <li><a href="/posts" lang="{{ .Lang }}" class="no-translation">
+                                     {{- if (and site.Params.displayFullLangName (.Language.LanguageName)) }}
+                                     {{- .Language.LanguageName | emojify -}}
+                                     {{- else }}
+                                     {{- .Lang | title -}}
+                                     {{- end -}}
+                                 </a></li> 
+                                 {{ end }}
+                           {{ end }}
+                        {{else}}
+                            {{ range .Site.Languages }}
+                            {{ if not (eq .Lang site.Language.Lang) }}
+                            <li><a href="/" lang="{{ .Lang }}" class="no-translation">
+                                {{- if (and site.Params.displayFullLangName (.Language.LanguageName)) }}
+                                {{- .Language.LanguageName | emojify -}}
+                                {{- else }}
+                                {{- .Lang | title -}}
+                                {{- end -}}
+                            </a></li> 
+                            {{ end }}
+                  {{ end }}
+                            
+                       {{end}}
+                    {{ end }}  
                 </ul>
-                {{- end }}
             </span>
         </div>
         {{- $currentPage := . }}

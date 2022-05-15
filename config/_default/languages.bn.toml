@@ -18,6 +18,6 @@ name = 'পোস্ট`স'
 url = '/posts/'
 
 [editPost]
-    URL = "https://github.com/mrsnailo/mrsnailo.github.io/tree/master/content/bn/"
+    URL = "https://github.com/mrsnailo/mrsnailo.github.io/tree/master/content/bn"
     Text = "Suggest Changes" # edit text
     appendFilePath = true # to append file path to Edit link
