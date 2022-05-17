@@ -20,29 +20,28 @@ iconHeight = 32
 [assets]
 favicon = "/assets/icons/favicon/48x48.png"
 
-[profileMode]
-enabled = true
-title = "শাহিদ পারভেজ"
-subtitle = "Linux lover - Tech enthusiast - Student"
-imageUrl = "assets/logo/avatar.png"
-imageTitle = "Avatar"
-imageWidth = 180
-imageHeight = 180
 
 [cover]
 image = ['/assets/cover/cover.png']
 alt = "Cover"
 captions = "Reading Makes You Feel Good"
 
+[profileMode]
+enabled = true
+title = "Shahid Parvez"
+subtitle = "Linux lover - Tech enthusiast - Student"
+imageUrl = "/assets/logo/avatar.png"
+imageTitle = "Avatar"
+imageWidth = 180
+imageHeight = 180
+
 [[profileMode.buttons]]
 name = "About Me"
-url = "about/"
+url = "/en/about"
 # entry 2
 [[profileMode.buttons]]
 name = 'Posts'
-url = 'posts/'
-
-
+url = '/en/posts/'
 
 # Social Icon
 
