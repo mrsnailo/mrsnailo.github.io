@@ -28,7 +28,7 @@
   "devDependencies": {
     "badge-maker": "^3.3.1",
     "go": "^3.0.1",
-    "hugo-bin": "^0.87.1",
+    "hugo-bin": "^0.88.0",
     "simple-icons": "^6.23.0",
     "svgo": "^2.8.0"
   }
