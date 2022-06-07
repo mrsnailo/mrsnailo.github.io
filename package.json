@@ -4,12 +4,11 @@
   "description": "Making This Blog Ready for Github pages Automation",
   "main": "index.js",
   "scripts": {
-    "badge": "node helper/badges.js",
     "build": "npm run hugo:build",
     "clean": "npm run hugo:clean",
     "serve": "hugo serve --environment production",
     "hugo:build": "hugo -d build",
-    "hugo:serve": "npm run badge && npm run serve",
+    "hugo:serve": "npm run serve",
     "hugo": "hugo --minify --environment production",
     "hugo:clean": "rm -rf build resources public",
     "start": "npm run build && npm run hugo"
@@ -26,7 +25,6 @@
   "author": "shahid parvez",
   "license": "ISC",
   "devDependencies": {
-    "badge-maker": "^3.3.1",
     "go": "^3.0.1",
     "hugo-bin": "^0.88.1",
     "simple-icons": "^6.23.0",

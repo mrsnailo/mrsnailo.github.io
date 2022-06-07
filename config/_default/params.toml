@@ -1,5 +1,5 @@
 author = "Shahid Parvez"
-defaultTheme = 'light'
+defaultTheme = 'dark'
 
 ShowShareButtons = true 
 ShowReadingTime = true
