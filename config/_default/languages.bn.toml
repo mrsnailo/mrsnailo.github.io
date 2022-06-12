@@ -11,7 +11,7 @@ imageHeight = 180
 
 [[profileMode.buttons]]
 name = "আমাকে জানুন"
-url = "/about"
+url = "/bn/about"
 # entry 2
 [[profileMode.buttons]]
 name = 'পোস্ট`স'
