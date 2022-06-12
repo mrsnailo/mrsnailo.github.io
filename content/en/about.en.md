@@ -3,6 +3,16 @@ title: About Me
 layout: about
 url: /en/about
 ---
+
+{{<raw>}}
+    <style>
+        p a{
+            display: inline-block;
+            margin-left: 10px;
+        }
+    </style>
+{{</raw>}}
+
 ### :wave: Hi there  - I'm Shahid Parvez
 
 [![Website](https://img.shields.io/website?color=F5A65B&down_color=tomato&down_message=Down&label=mrsnailo.github.io&style=for-the-badge&up_color=6CAE75&up_message=up&url=https%3A%2F%2Fmrsnailo.github.io)](https://mrsnailo.github.io)
