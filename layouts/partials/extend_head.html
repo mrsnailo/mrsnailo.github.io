@@ -2,8 +2,16 @@
 {{- /*     Insert any custom code (web-analytics, resources, etc.) - it will appear in the <head></head> section of every page. */ -}}
 {{- /*     Can be overwritten by partial with the same name in the global layouts. */ -}}
 {{- /* Head custom content area end */ -}}
-<script src="https://ackee-mr.netlify.app/tracker.js"></script>
 
-<script>
-	ackeeTracker.create('https://ackee-mr.netlify.app').record('e4835df8-95fd-4a05-a268-97dec90f2467')
-</script>
+{{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
+
+{{- partialCached "partials/head/tracker.html" . }}
+
+{{- end -}}
+<style>
+@media screen and (max-width: 435px) {
+  .nav {
+    justify-content:center;
+  }
+}
+</style>
