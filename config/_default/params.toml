@@ -71,6 +71,6 @@ url = "https://discord.com/users/573172734767661056"
 
 
 # Suggest Changes
-[analytics.ackee]
-endPoint = 'https://ackee-mr.netlify.app'
-siteID = 'b165d780-b0fa-4156-b4cc-e59630468122'
+# [analytics.ackee]
+# endPoint = 'https://ackee-mr.netlify.app'
+# siteID = 'b165d780-b0fa-4156-b4cc-e59630468122'
