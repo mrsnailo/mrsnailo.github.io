@@ -3,7 +3,7 @@ baseURL = "https://mrsnailo.github.io"
 languageCode = 'en-us'
 title = 'Shahid Parvez'
 theme = "github.com/adityatelange/hugo-PaperMod"
-defaultContentLanguage = 'bn'
+defaultContentLanguage = 'en'
 enableEmoji = true
 custom_css = ["/css/timeline.css"]
 

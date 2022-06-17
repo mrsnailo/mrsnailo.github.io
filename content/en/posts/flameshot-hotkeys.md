@@ -31,6 +31,7 @@ Dowload The below File:
  - Go to kde Settings 
 
  - Go to Custom Shortcut
+ 
  ![Image](https://i.ibb.co/Xy1gJmW/image.png)
 
  - Import it from here
