@@ -1,18 +1,18 @@
 ---
-title: "Direct copy to clipboard Shortcut-Flamshot"
+title: "Direct copy to clipboard Shortcut-Flameshot"
 date: 2022-06-17T22:15:00+0600 ##modify
 tags:
     - tools
     - hotkeys
 categories: 
     - Utilities
-description: Import a custom shortut file for direct copy any screen to clipboard Using Flameshot
+description: Import a custom shortut file for direct copy any screen to clipboard, Using Flameshot
 ---
 
 ## Introduction 
-A lot you may using flameshot with kde . And ofcourse its a handy sceenshot taking tool. I would recommend it to use as i have good experience with flameshot. 
+A lot you may using flameshot with kde . And ofcourse its a handy sceenshot taking tool. I would recommend you to use it as i have good experience with flameshot. 
 
-By defalt flameshot has limited keyboard shortcut to trigger any actions. 
+By default flameshot has limited keyboard shortcut to trigger any actions. 
 
 ![Shortcut](https://i.ibb.co/v4J4P1k/image.png)
 
