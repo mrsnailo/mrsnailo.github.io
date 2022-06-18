@@ -13,7 +13,7 @@ url = "/en/about"
 # entry 2
 [[profileMode.buttons]]
 name = 'Posts'
-url = '/en/posts/'
+url = '/posts/'
 
 [editPost]
     URL = "https://github.com/mrsnailo/mrsnailo.github.io/tree/master/content/en"
