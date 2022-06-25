@@ -12,13 +12,20 @@ comments = true
 images = ['/assets/cover/cover.png']
 
 [label]
-text = "‍@shahidparvez"
-icon = "/assets/icons/favicon/48x48.png"
+text = "‍@mrsnailo"
+icon = "/assets/logo/logo.png"
 iconHeight = 32
 
 
 [assets]
-favicon = "/assets/icons/favicon/48x48.png"
+disableFingerprinting = true
+favicon = "/assets/icons/favicon/favicon-48x48.png"
+favicon16x16 = "/assets/icons/favicon/favicon-16x16.png"
+favicon32x32 = "/assets/icons/favicon/favicon-32x32.png"
+apple_touch_icon = '/assets/icons/apple/base.png'
+safari_pinned_tab = "/assets/icons/apple/tab.svg"
+msTileColor = "#1d1e20"
+vtag = '8jl4JnrGke'
 
 
 [cover]
@@ -26,14 +33,6 @@ image = ['/assets/cover/cover.png']
 alt = "Cover"
 captions = "Reading Makes You Feel Good"
 
-[profileMode]
-enabled = true
-title = "Shahid Parvez"
-subtitle = "Linux lover - Tech enthusiast - Student"
-imageUrl = "/assets/logo/avatar.png"
-imageTitle = "Avatar"
-imageWidth = 180
-imageHeight = 180
 
 [[profileMode.buttons]]
 name = "About Me"
@@ -55,7 +54,7 @@ url = "https://twitter.com/mrsnailo"
 
 [[socialIcons]]
 name = "Reddit"
-url = "https://reddit.com/mrsnailo"
+url = "https://reddit.com/u/mrsnailo"
 
 [[socialIcons]]
 name = "Instagram"
@@ -63,7 +62,7 @@ url = "https://Instagram.com/mrsnailo"
 
 [[socialIcons]]
 name = "Telegram"
-url = "https://t.me/prismoidparvez"
+url = "https://t.me/mrsnailo"
 
 [[socialIcons]]
 name = "Discord"

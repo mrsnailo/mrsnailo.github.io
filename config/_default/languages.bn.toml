@@ -2,11 +2,10 @@
 enabled = true
 title = "শাহিদ পারভেজ"
 subtitle = "Linux lover - Tech enthusiast - Student"
-imageUrl = "/assets/logo/avatar.png"
-imageTitle = "Avatar"
+imageUrl = "/assets/logo/logo.png"
+imageTitle = "Logo"
 imageWidth = 180
 imageHeight = 180
-
 
 
 [[profileMode.buttons]]
