@@ -24,7 +24,7 @@ But i know you guyz want more. You can do so by  adding custom shorcut. Theres a
 ### Download
 Dowload The below File:
 
-[Flameshot-kde.hotkeys](https://mega.nz/file/NioVjA7Y#0dsvYmfFtyCVm6jr0Ll5VtTCICcZOdv_2I6UpDy_4G0)
+[Flameshot-kde.hotkeys](https://mega.nz/file/QzRSQTLA#lcyan612dxJRrU5JafQ134b_0DhL5uXM5GHaTkN5vK0)
 
 ### Import the hotkeys
 
