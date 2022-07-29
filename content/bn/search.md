@@ -1,7 +1,7 @@
 ---
 title: সার্চ
 layout: search
-url: /search
+url: /bn/search
 summary: Search Engine
 ---
 

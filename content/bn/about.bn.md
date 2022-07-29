@@ -2,7 +2,7 @@
 title: আমার সম্পর্কে
 layout: about
 url: /bn/about
-search: hidden
+searchHidden: true
 ---
 
 {{<raw>}}

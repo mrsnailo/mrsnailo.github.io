@@ -2,6 +2,7 @@
 title: About Me
 layout: about
 url: /en/about
+searchHidden: true
 ---
 
 {{<raw>}}

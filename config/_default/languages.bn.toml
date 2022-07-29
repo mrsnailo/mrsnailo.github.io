@@ -10,11 +10,11 @@ imageHeight = 180
 
 [[profileMode.buttons]]
 name = "আমাকে জানুন"
-url = "/bn/about"
+url = "about"
 # entry 2
 [[profileMode.buttons]]
 name = 'পোস্ট`স'
-url = '/posts/'
+url = 'posts/'
 
 [editPost]
     URL = "https://github.com/mrsnailo/mrsnailo.github.io/tree/master/content/bn"

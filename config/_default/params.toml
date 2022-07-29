@@ -68,3 +68,11 @@ url = "https://t.me/mrsnailo"
 name = "Discord"
 url = "https://discord.com/users/573172734767661056"
 
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+keys = [ "title", "permalink", "summary", "content" ]

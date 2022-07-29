@@ -1,0 +1,19 @@
+[[main]]
+name = "পােস্ট"
+url = "/posts/"
+weight = 1
+
+[[main]]
+name = "ট্যাগ'স"
+url = "/tags/"
+weight = 2
+
+[[main]]
+name= "ক্যাটাগরিজ"
+url = "/categories/"
+weight = 3
+
+[[main]]
+name = "খুজুন"
+url = "/search/"
+weight = 4
