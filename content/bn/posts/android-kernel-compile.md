@@ -2,10 +2,10 @@
  title: আন্ড্রয়েড কার্ণেল বিল্ড
  date: 2021-12-14T20:24:00+0600
  tags: 
-    - Android
-    - Kernel
-    - Compile
- categories: Android Development
+    - আন্ড্রয়েড
+    - কার্নেল
+    - কম্পাইল
+ categories:  আন্ড্রয়েড  ডেচেলপমেন্ট
  description: এই পোস্টে আন্ড্রয়েড কার্নেল এর বেসিক কম্পাইলেশন নিয়ে আলোচনা করা হয়েছে।
 ---
 
