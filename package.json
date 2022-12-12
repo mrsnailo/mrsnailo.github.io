@@ -27,7 +27,7 @@
   "devDependencies": {
     "go": "^3.0.1",
     "hugo-bin": "^0.92.2",
-    "simple-icons": "^7.12.0",
+    "simple-icons": "^8.1.0",
     "svgo": "^2.8.0"
   }
 }
