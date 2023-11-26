@@ -1,0 +1,19 @@
+{
+  "name": "mrsnailo.github.io",
+  "version": "1.0.0",
+  "description": "my github page",
+  "main": "index.js",
+  "repository": "git@github.com:mrsnailo/mrsnailo.github.io.git",
+  "author": "mrsnailo",
+  "license": "MIT",
+  "scripts": {
+    "dev": "hugo serve --disableFastRender"
+  },
+  "dependencies": {
+    "go": "^3.0.1",
+    "md-to-pdf": "^5.2.4"
+  },
+  "devDependencies": {
+    "hugo-bin": "^0.116.4"
+  }
+}

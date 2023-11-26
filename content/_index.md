@@ -1,10 +1,9 @@
 ---
 title: "mrsnailo's home"
-description: "simple introduction about this page"
+description: "Shahid parvez home, welcome!"
 ---
 
-{{< button href="#button" style="margin-top: 2px" target="_self" >}}
-My Resume   
-{{<icon "download" >}} 
+{{< button href="/downloads/resume.pdf" target="_self" >}}
+My Resume  {{<icon "download" >}} 
 {{< /button >}}
 
