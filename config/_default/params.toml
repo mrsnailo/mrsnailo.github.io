@@ -114,13 +114,13 @@ smartTOC = true
   cardViewScreenWidth = false
 
 [firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+  apiKey = "AIzaSyDk9LlH434Ow7O6qODoWGzLly_u2e9Z-Y8"
+  authDomain = "mrsnailo.firebaseapp.com"
+  projectId = "mrsnailo"
+  storageBucket = "mrsnailo.appspot.com"
+  messagingSenderId = "891144261816"
+  appId = "1:891144261816:web:cbd6db1f35d1ba9785e44d"
+  measurementId = "G-7P6EZMTBGS"
 
 [fathomAnalytics]
   # site = "ABC12345"
