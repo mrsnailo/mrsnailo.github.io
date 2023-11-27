@@ -17,7 +17,7 @@ showReadingTime: false
 
 ---
 
-[LinkedIn](https://www.linkedin.com/in/johndoe) | [Portfolio](https://www.johndoeportfolio.com) | [GitHub](https://github.com/johndoe)
+[LinkedIn](https://www.linkedin.com/in/mrsnailo) | [Portfolio](https://mrsnailo.github.io) | [GitHub](https://github.com/mrsnailo)
 
 ---
 

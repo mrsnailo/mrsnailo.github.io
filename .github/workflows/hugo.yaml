@@ -1,0 +1,59 @@
+name: Hugo Deplyment
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+      pages: write
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+        submodules: true
+
+    - name: prepare(hugo)
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: latest
+        extended: true
+
+    - name: prepare(node)
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: init-cache(hugo)
+      uses: actions/cache@v3
+      with:
+        key: ${{ runner.os }}-hugomod-${{ hashFiles('go.sum') }}
+        path: /tmp/hugo_cache
+        restore-keys: ${{ runner.os }}-hugomod-
+
+    - name: init-cache(node)
+      uses: actions/cache@v3
+      with:
+        key: ${{ runner.os }}-npm-${{ hashFiles('package-lock.json') }}
+        path: ./node_modules
+        restore-keys: ${{ runner.os }}-npm-
+
+    - name: build(site)
+      run: . helper/build.sh
+      shell: sh
+
+    - name: push(site)
+      uses: actions/upload-pages-artifact@v1
+      with:
+        name: github-pages
+        path: ./public
+        retention-days: 1
+
+    - name: deploy(site)
+      uses: actions/deploy-pages@v2
