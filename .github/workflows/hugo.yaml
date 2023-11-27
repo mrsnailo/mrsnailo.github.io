@@ -1,4 +1,4 @@
-name: Hugo Deplyment
+name: Hugo Deployment
 on:
   workflow_dispatch:
   push:
@@ -45,7 +45,7 @@ jobs:
         restore-keys: ${{ runner.os }}-npm-
 
     - name: build(site)
-      run: . helper/build.sh
+      run: . helpers/build.sh
       shell: sh
 
     - name: push(site)
