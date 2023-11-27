@@ -34,6 +34,11 @@ buildFuture = false
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[permalinks]
+  [permalinks.page]
+    posts = '/posts/:year/:month/:slug/'
+
+
 [related]
   threshold = 0
   toLower = false
