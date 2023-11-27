@@ -36,12 +36,8 @@ __Unique Kinder Garten School, Munshigong,Chuadanga.__
 `Jan 2008 - 2017`
 __V.J Govt High School, Chuadanga__
 
-- SSC
-
 `2017 - now`
 __Chuadanga Govt College, Chuadanga__
-
-- HSC, BBA
 
 ### Skills
 
