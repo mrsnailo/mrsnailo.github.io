@@ -55,5 +55,5 @@ jobs:
         path: ./public
         retention-days: 1
 
-    - name: deploy
+    - name: deploy(site)
       uses: actions/deploy-pages@v2
