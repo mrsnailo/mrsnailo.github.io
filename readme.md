@@ -1,8 +1,10 @@
-# [@mrsnailo]
+# @mrsnailo blog
 
 Welcome to my personal blog hosted on GitHub Pages! This repository contains the source code and content for my blog.
-
-[Preview](preview.png)
+# 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mrsnailo/mrsnailo.github.io/master/preview.png" alt="Image Description" width="800" />
+</pp>
 
 ## About
 This blog serves as a platform where I share my thoughts, insights, and experiences on [technology, travel etc.].
