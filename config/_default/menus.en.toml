@@ -59,7 +59,7 @@
   identifier = "twitter"
   pre = "x-twitter"
   url = "https://twitter.com/mrsnailo"
-  weight = 200
+  weight = 400
 
 [[main]]
   identifier = "mastodon"
@@ -71,7 +71,7 @@
   identifier = "github"
   pre = "github"
   url = "https://github.com/mrsnailo"
-  weight = 400
+  weight = 200
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

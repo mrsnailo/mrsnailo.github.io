@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "mrsnailo"
+title = "@mrsnailo"
 
 [params]
   displayName = "EN"
@@ -26,7 +26,7 @@ title = "mrsnailo"
 #     { blogger = "https://username.blogspot.com/" },
 #     { codepen = "https://codepen.io/username" },
 #     { dev = "https://dev.to/username" },
-    { discord = "discordapp.com/users/573172734767661056" },
+    { discord = "https://discordapp.com/users/573172734767661056" },
 #     { dribbble = "https://dribbble.com/username" },
     { facebook = "https://facebook.com/shahidparvez.dev" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
