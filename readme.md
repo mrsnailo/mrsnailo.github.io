@@ -1,23 +1,23 @@
-# @mrsnailo's blog
+# @mrsnailo's space
 
-Welcome to my personal blog hosted on GitHub Pages! This repository contains the source code and content for my blog.
+Welcome to my personal blog-space, where i am  gonna put my daily life experiences with linux or web-development, hosted on GitHub Pages! This repository contains the source code and content for my blog-space.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/mrsnailo/mrsnailo.github.io/master/preview.png" alt="Image Description" width="800" />
 </pp>
 
 ## About
-This blog serves as a platform where I share my thoughts, insights, and experiences on technology, travel etc.
+This blog serves as a platform where I share my thoughts, insights, and experiences with linux or web-development. I might also put short stories on various topic as a side genre.
 
 ## Technologies Used
 - **Hugo**: Used to build and generate the static site.
 - **HTML/CSS**: Custom styling and layout for the blog.
-- **Node**: Npm Packages for various extension of my bio.
+- **Node**: Npm Packages to add some extra feature to my spcae. 
 
 ## Usage
-To view the blog locally or contribute:
+To view the blog locally:
 1. Clone this repository: `git clone https://github.com/mrsnailo/mrsnailo.gtihub.io.git`
-2. Go to the directory and Install dependencies . (Use npm /yarn)
+2. Go to the directory and Install dependencies. (Use npm /yarn)
 ```shell
 yarn install
 ```
