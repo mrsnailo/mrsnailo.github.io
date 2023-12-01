@@ -1,3 +1,5 @@
 public
 yarn-error.log
 node_modules
+.hugo_build.lock
+yarn.lock

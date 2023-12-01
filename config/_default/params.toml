@@ -46,6 +46,7 @@ smartTOC = true
   layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
+  showComments = true
   showDate = true
   showViews = true
   showLikes = true
@@ -68,7 +69,7 @@ smartTOC = true
   showTableOfContents = true
   # showRelatedContent = false
   # relatedContentLimit = 3
-  # showTaxonomies = true
+  showTaxonomies = true
   showAuthorsBadges = false
   showWordCount = true
   sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
