@@ -7,7 +7,7 @@
   "author": "mrsnailo",
   "license": "MIT",
   "scripts": {
-    "build-resume": "node helpers/reume/make-resume.js",
+    "build-resume": "node helpers/resume/make-resume.js",
     "build": "npm run build-resume",
     "hugo": "hugo --minify --environment production",
     "start": "npm run build && npm run hugo",
