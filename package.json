@@ -7,14 +7,16 @@
   "author": "mrsnailo",
   "license": "MIT",
   "scripts": {
-    "resume": "node helpers/make-resume.js",
-    "build": "npm run resume",
+    "build-resume": "node helpers/reume/make-resume.js",
+    "build": "npm run build-resume",
     "hugo": "hugo --minify --environment production",
     "start": "npm run build && npm run hugo",
     "dev": "hugo serve --disableFastRender"
   },
   "dependencies": {
-    "md-to-pdf": "^5.2.4"
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^13.0.2",
+    "puppeteer": "^21.5.2"
   },
   "devDependencies": {
     "hugo-bin": "^0.116.4"
