@@ -8,7 +8,7 @@ const markdown = require('markdown-it')({
   const matter = require('gray-matter');
   
   (async () => {
-	const browser = await puppeteer.launch({headless: 'new'});
+	const browser = await puppeteer.launch({headless: 'true'});
 	const page = await browser.newPage();
 	
 	const markdownFilePath = 'content/about/index.md'; // Replace this with the path to your Markdown file

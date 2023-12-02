@@ -1,6 +1,9 @@
-# ignored files or directories
-public
+# ignored  directories
+public/
+node_modules/
+.cache/
+
+# ignored files
 yarn-error.log
-node_modules
 yarn.lock
-/.hugo_build.lock
+.hugo_build.lock

@@ -14,8 +14,8 @@
     "dev": "hugo serve --disableFastRender"
   },
   "dependencies": {
-    "chrome": "^0.1.0",
     "gray-matter": "^4.0.3",
+    "headless-chrome": "^0.0.0",
     "markdown-it": "^13.0.2",
     "puppeteer": "^21.5.2"
   },
