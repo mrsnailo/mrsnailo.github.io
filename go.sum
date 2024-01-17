@@ -1,4 +1,8 @@
+github.com/mrsnailo/content-module v0.0.0-20240117080709-86d2c322053b h1:2T9pfw52Jc88fnmJB+CFbBflVKpc/lVVHWi5C9666KM=
+github.com/mrsnailo/content-module v0.0.0-20240117080709-86d2c322053b/go.mod h1:A4ET6sX/PtXctmq9VQKRi8itjGGlcOvV7jcx7v0sQZ0=
 github.com/nunocoracao/blowfish/v2 v2.44.0 h1:lUR0Ako1B6QQPuWJ/vy5zwV6f3Vr+ga9OJifErzxTjA=
 github.com/nunocoracao/blowfish/v2 v2.44.0/go.mod h1:4SkMc+Ht8gpQCwArqiHMBDP3soxi2OWuAhVney+cuyk=
 github.com/nunocoracao/blowfish/v2 v2.45.0 h1:qjiNRMJyuxPK7/Bqni11vXPnE/yDXO2R9k4ov2KY4BE=
 github.com/nunocoracao/blowfish/v2 v2.45.0/go.mod h1:4SkMc+Ht8gpQCwArqiHMBDP3soxi2OWuAhVney+cuyk=
+github.com/nunocoracao/blowfish/v2 v2.50.0 h1:1ACaXQa4yDm3wRwiF+XhATom32a1c352rVhZRdYTrpU=
+github.com/nunocoracao/blowfish/v2 v2.50.0/go.mod h1:4SkMc+Ht8gpQCwArqiHMBDP3soxi2OWuAhVney+cuyk=
