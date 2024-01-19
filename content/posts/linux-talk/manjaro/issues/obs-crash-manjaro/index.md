@@ -31,7 +31,7 @@ warning: Failed to initialize module 'decklink.so'
 sudo pacman -R libva-vdpau-driver
 ```
 
-এবার obs-studio প্যাকেজটি একবার আনইন্সটল করে আবার ইনস্টল করলেই দেখবেন  obs রান হচ্ছে । 
+এবার obs-studio প্যাকেজটি একবার আনইন্সটল করে আবার ইনস্টল করলেই দেখবেন সমাধান হয়ে গেছে । 
 
 
 ### reinstall obs
@@ -45,6 +45,6 @@ sudo pacman -S obs-studio
 
 ## রান obs
 
-obs রান করুন। আশা করি এখন obs-studio এখন ঠিকঠাক ভাবেই চলবে । 
+obs রান করুন। আশা করি obs-studio এখন ঠিকঠাক ভাবেই চলবে । 
 
 ![obs screeshon](https://i.ibb.co/r6625Dj/image.png)
