@@ -24,7 +24,7 @@ warning: Failed to initialize module 'decklink.so'
 ```
 ## সমাধান
 
-বিভিন্ন artcile পড়ে অনেক সমাধান ই পেলাম,তবে সবথেকে ঝামেলাহীন এবং আমার কাছে যেইটা ভালো মনে হয়েছে , তা হল libva-vdpau-driver টা রিমুভ করা । 
+বিভিন্ন article পড়ে অনেক সমাধান ই পেলাম,তবে সবথেকে ঝামেলাহীন এবং আমার কাছে যেইটা ভালো মনে হয়েছে , তা হল libva-vdpau-driver টা রিমুভ করা । 
 
 ### remove libva-vdpau-driver
 ```fish
