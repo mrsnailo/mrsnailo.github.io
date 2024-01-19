@@ -1,8 +1,2 @@
 [[imports]]
 path = "github.com/nunocoracao/blowfish/v2"
-
-[[imports]]
-path = "github.com/mrsnailo/content-module"
-[[imports.mounts]]
-source = "content"
-target = "content/"
